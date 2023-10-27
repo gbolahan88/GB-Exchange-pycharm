@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+<!-- Page content -->
+{% block content %}
+<section>
+    <div _ngcontent-nrr-c12="" class="rates-container">
+        <div _ngcontent-nrr-c12="" class="home-cta">
+            <h3 _ngcontent-nrr-c12="" data-aos="fade-zoom-in" data-aos-duration="1000" class="title aos-init aos-animate">
+                Gift Card Rate<br>Calculator </h3>
+            <p _ngcontent-nrr-c12="" data-aos="fade-zoom-in" data-aos-duration="1000" class="aos-init aos-animate">
+                Find out the current rate of different gift cards in Naira or Cedis using GB wallet gift card rate calculator.</p>
+        </div>
+
+        <div _ngcontent-nrr-c12="" class="rate-calculator">
+            <div _ngcontent-nrr-c12="" class="calculator">
+                <div _ngcontent-nrr-c12="" class="toggler">
+                    <button _ngcontent-nrr-c12="" class="btn toggle-btn active">Naira (₦)</button>
+                    <button _ngcontent-nrr-c12="" class="btn toggle-btn">Ghana Cedis (GH₵)</button>
+                </div>
+
+                <div _ngcontent-nrr-c12="" class="calculator-form">
+                    <div _ngcontent-nrr-c12="" class="form-group">
+                        <label _ngcontent-nrr-c12="">Select Gift card</label>
+                        <select _ngcontent-nrr-c12="" aria-label="Default select example" name="category" class="form-select theme-select empty-select ng-untouched ng-pristine ng-valid">
+                            <option _ngcontent-nrr-c12="" value="0: Object" class="ng-star-inserted">Apple iTunes </option>
+                            <option _ngcontent-nrr-c12="" value="1: Object" class="ng-star-inserted">Amazon </option>
+                            <option _ngcontent-nrr-c12="" value="2: Object" class="ng-star-inserted">Steam </option>
+                            <option _ngcontent-nrr-c12="" value="3: Object" class="ng-star-inserted">GooglePlay </option>
+                            <option _ngcontent-nrr-c12="" value="4: Object" class="ng-star-inserted">Vanilla/OneVanilla Visa </option>
+                            <option _ngcontent-nrr-c12="" value="5: Object" class="ng-star-inserted">Vanilla/OneVanilla Mastercard </option>
+                            <option _ngcontent-nrr-c12="" value="6: Object" class="ng-star-inserted">Walmart Visa </option>
+                            <option _ngcontent-nrr-c12="" value="7: Object" class="ng-star-inserted">Sephora </option>
+                            <option _ngcontent-nrr-c12="" value="8: Object" class="ng-star-inserted">Nordstrom </option>
+                            <option _ngcontent-nrr-c12="" value="9: Object" class="ng-star-inserted">Nike </option>
+                            <option _ngcontent-nrr-c12="" value="10: Object" class="ng-star-inserted">Macy </option>
+                            <option _ngcontent-nrr-c12="" value="11: Object" class="ng-star-inserted">American Express </option>
+                            <option _ngcontent-nrr-c12="" value="12: Object" class="ng-star-inserted">Footlocker </option>
+                            <option _ngcontent-nrr-c12="" value="13: Object" class="ng-star-inserted">Ebay </option>
+                            <option _ngcontent-nrr-c12="" value="14: Object" class="ng-star-inserted">Xbox </option>
+                            <option _ngcontent-nrr-c12="" value="15: Object" class="ng-star-inserted">JCPenney </option>
+                            <option _ngcontent-nrr-c12="" value="16: Object" class="ng-star-inserted">Target </option>
+                            <option _ngcontent-nrr-c12="" value="17: Object" class="ng-star-inserted">American Express Serve </option>
+                            <option _ngcontent-nrr-c12="" value="18: Object" class="ng-star-inserted">Razer </option>
+                            <option _ngcontent-nrr-c12="" value="19: Object" class="ng-star-inserted">Walmart </option>
+                            <option _ngcontent-nrr-c12="" value="20: Object" class="ng-star-inserted">Visa </option>
+                            <option _ngcontent-nrr-c12="" value="21: Object" class="ng-star-inserted">Netspend </option>
+                            <option _ngcontent-nrr-c12="" value="22: Object" class="ng-star-inserted">Gamestop </option>
+                            <option _ngcontent-nrr-c12="" value="23: Object" class="ng-star-inserted">Kohl's </option>
+                            <option _ngcontent-nrr-c12="" value="24: Object" class="ng-star-inserted">Ulta Beauty </option>
+                            <option _ngcontent-nrr-c12="" value="25: Object" class="ng-star-inserted">Lowe's </option>
+                            <!---->
+                        </select>
+                    </div>
+
+                    <div _ngcontent-nrr-c12="" class="form-group">
+                        <label _ngcontent-nrr-c12="">Sub-category</label>
+                        <select _ngcontent-nrr-c12="" aria-label="Default select example" name="subcategory" class="form-select theme-select ng-valid ng-dirty ng-touched">
+                            <!---->
+                        </select>
+                    </div>
+                    <div _ngcontent-nrr-c12="" class="form-group">
+                        <label _ngcontent-nrr-c12="">Card Amount</label>
+                        <input _ngcontent-nrr-c12="" type="number" placeholder="Enter card Amount" name="card_amount" class="form-control auth-form-control ng-untouched ng-pristine ng-valid">
+                    </div>
+                </div>
+                <div _ngcontent-nrr-c12="" class="calculator-footer">
+                    <div _ngcontent-nrr-c12="" class="cash-value">
+                        <h6 _ngcontent-nrr-c12="" class="title">Cash Value</h6>
+                        <h3 _ngcontent-nrr-c12="" class="amount"><span _ngcontent-nrr-c12="" class="currency">₦</span>0 </h3>
+                    </div>
+
+                    <div _ngcontent-nrr-c12="" class="d-flex flex-column gap-2 w-100 mt-5">
+                        <a _ngcontent-nrr-c12="" href="#base.html" target="_blank" class="btn theme-btn">Get Started</a>
+                        <p _ngcontent-nrr-c12="" class="note">Amount calculated based on current rate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <h2>
+            Hello
+        </h2>
+    </div>
+</section>
+{% endblock content %}
